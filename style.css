@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #001d30;
+}
+@keyframes hacker {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(to top, #001d30 40%, #51eeee);
+  border-radius: 100%;
+  animation: hacker 2s linear forwards;
+  animation-iteration-count: infinite;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  background: #001d30;
+  inset: 20px 20px 0 0;
+  border-radius: 50%;
+}
+.loader::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: -8px;
+  width: 40px;
+  height: 40px;
+  background: #51eeee;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #51eeee, 0 0 25px #51eeee, 0 0 50px #51eeee,
+    0 0 75px #51eeee;
+}
+.a {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 5%;
+  left: 5%;
+  background: linear-gradient(to top, #001d30 40%, #51eeee);
+  border-radius: 100%;
+  animation: hacker 2s linear forwards;
+  animation-iteration-count: infinite;
+}
+.a::before {
+  content: "";
+  position: absolute;
+  background: #001d30;
+  inset: 20px 20px 0 0;
+  border-radius: 50%;
+}
+.a::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: -8px;
+  width: 40px;
+  height: 40px;
+  background: #51eeee;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #51eeee, 0 0 25px #51eeee, 0 0 50px #51eeee,
+    0 0 75px #51eeee;
+}
+.b {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 5%;
+  right: 5%;
+  background: linear-gradient(to top, #001d30 40%, #51eeee);
+  border-radius: 100%;
+  animation: hacker 2s linear forwards;
+  animation-iteration-count: infinite;
+}
+.b::before {
+  content: "";
+  position: absolute;
+  background: #001d30;
+  inset: 20px 20px 0 0;
+  border-radius: 50%;
+}
+.b::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: -8px;
+  width: 40px;
+  height: 40px;
+  background: #51eeee;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #51eeee, 0 0 25px #51eeee, 0 0 50px #51eeee,
+    0 0 75px #51eeee;
+}
+.c {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  bottom: 5%;
+  left: 5%;
+  background: linear-gradient(to top, #001d30 40%, #51eeee);
+  border-radius: 100%;
+  animation: hacker 2s linear forwards;
+  animation-iteration-count: infinite;
+}
+.c::before {
+  content: "";
+  position: absolute;
+  background: #001d30;
+  inset: 20px 20px 0 0;
+  border-radius: 50%;
+}
+.c::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: -8px;
+  width: 40px;
+  height: 40px;
+  background: #51eeee;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #51eeee, 0 0 25px #51eeee, 0 0 50px #51eeee,
+    0 0 75px #51eeee;
+}
+.d {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  right: 5%;
+  bottom: 5%;
+  background: linear-gradient(to top, #001d30 40%, #51eeee);
+  border-radius: 100%;
+  animation: hacker 2s linear forwards;
+  animation-iteration-count: infinite;
+}
+.d::before {
+  content: "";
+  position: absolute;
+  background: #001d30;
+  inset: 20px 20px 0 0;
+  border-radius: 50%;
+}
+.d::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  right: -8px;
+  width: 40px;
+  height: 40px;
+  background: #51eeee;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #51eeee, 0 0 25px #51eeee, 0 0 50px #51eeee,
+    0 0 75px #51eeee;
+}
+.x{
+  overflow: hidden;
+}
